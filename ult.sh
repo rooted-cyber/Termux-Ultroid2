@@ -1,10 +1,10 @@
 clear
 cpp() {
-cp ~/Te*d/ch /bin
+cp ~/Te*d2/ch /bin
 chmod 777 /bin/ch
 }
 upp() {
-cp ~/Te*d/ch $PREFIX/bin
+cp ~/Te*d2/ch $PREFIX/bin
 chmod 777 $PREFIX/bin/ch
 }
 if [ -n "$PREFIX" ]; then
