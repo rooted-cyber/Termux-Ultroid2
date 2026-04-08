@@ -16,7 +16,12 @@ cd ~
 msg installing utroid
 git clone https://github.com/TeamUltroid/Ultroid
 cd Ultroid
+if command -v pip3:then
 pip3 install -r requirements.txt --no-cache-dir
+else
+pp i -r ~/Ult*/req*  --no-cache-dir --force-reinstall
+fi
+#https://github.com/rooted-cyber/Termux-Ultroid2*
 ch() {
 
 for item in "$@"; do
