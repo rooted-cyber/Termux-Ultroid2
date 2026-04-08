@@ -23,7 +23,7 @@ for item in "$@"; do
 
   # 4. Try installing as pip package
   msg "➤ Trying pip install: $item"
-  if pip install "$item" >/dev/null 2>&1; then
+  if pp install "$item" >/dev/null 2>&1; then
     msg "✔ $item installed via pip"
   else
     echo "✘ Failed to install $item"
