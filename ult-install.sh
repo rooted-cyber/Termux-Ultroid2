@@ -39,7 +39,7 @@ if [ -d "Ultroid" ]; then
   cd ~/Ultroid || return
   bash startup
 else
-  bash ~/Te*d/ult.sh
+  bash ~/Te*d2/ult.sh
 fi
 }
 
