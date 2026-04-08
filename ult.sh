@@ -42,7 +42,7 @@ for item in "$@"; do
 
   # 4. pip install
   msg "➤ Trying pip install: $item"
-  if pip3 install "$item" >/dev/null 2>&1; then
+  if pp install "$item" >/dev/null 2>&1; then
     msg "✔ $item installed via pip"
   else
     msg "✘ Failed to install $item"
