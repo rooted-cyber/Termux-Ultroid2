@@ -2,6 +2,7 @@ msg create .env
 msg
 msg
 msg No need REDIS,MONGO and many things
+msg "my.telegram.org open and get!"
 msg -n "Enter API_ID : "
 read a
 msg -n "Enter API_HASH : "
