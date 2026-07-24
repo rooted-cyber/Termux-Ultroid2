@@ -65,7 +65,10 @@ for c in pillow coloredlogs gitpython bs4 pytz enhancer telegraph aiohttp reques
   ch "$c"
 done
 cp ~/Te*2/sm $PREFIX/bin
+chmod 777 $PREFIX/bin/sm
+
 cp /sdcard/.env ~
 cp /sdcard/ul*json ~/Ter*d
+tu st
 tu py
 tu cpp
