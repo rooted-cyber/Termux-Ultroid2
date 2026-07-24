@@ -1,10 +1,12 @@
-msg remove pip
-if command -v pip;then
-if command -v rm;then
-apt remove pip 
-else
-ra
-apt remove pip
-msg remove rm
-ra
+msg "Remove pip"
+
+if command -v pip >/dev/null 2>&1; then
+    if command -v rm >/dev/null 2>&1; then
+        apt remove pip
+    else
+        ra
+        apt remove pip
+        msg "Remove rm"
+        ra
+    fi
 fi
