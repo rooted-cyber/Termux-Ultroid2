@@ -14,6 +14,8 @@ cpp
 fi
 cd ~
 msg installing utroid
+mkdir ~/Termux-Ultroid
+cd  ~/Termux-Ultrolid
 git clone https://github.com/TeamUltroid/Ultroid
 cd Ultroid
 if command -v pip3;then
@@ -62,3 +64,8 @@ for c in pillow coloredlogs gitpython bs4 pytz enhancer telegraph aiohttp reques
   msg "➤ Installing $c"
   ch "$c"
 done
+cp ~/Te*2/sm $PREFIX/bin
+cp /sdcard/.env ~
+cp /sdcard/ul*json ~/Ter*d
+tu py
+tu cpp
