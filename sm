@@ -2,11 +2,15 @@ msg "Remove pip"
 
 if command -v pip >/dev/null 2>&1; then
     if command -v rm >/dev/null 2>&1; then
-        apt remove pip
+        apt remove python-pip
+msg "Remove rm"
+        ra
     else
         ra
-        apt remove pip
+        apt remove python-pip
         msg "Remove rm"
         ra
     fi
 fi
+cd ~/Termux-Ultroid/*
+bash startup
